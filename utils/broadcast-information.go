@@ -23,7 +23,7 @@ func broadcastInformation(message string, senderConn net.Conn) {
 			client.conn.Write([]byte(fmt.Sprintf("\n[%s][%s]:", time.Now().Format(time.DateTime), client.name)))
 			if err != nil {
 				log.Printf("Error broadcasting to %v: %v\n", &client.name, err)
-				go removeClient(client.conn)
+				go removeClientFromChat(client.conn)
 			}
 		}
 	}
