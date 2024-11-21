@@ -2,26 +2,10 @@ package main
 
 import (
 	"log"
-	"net"
 	"os"
 	"strconv"
-	"sync"
 
 	"github.com/johneliud/netcat/utils"
-)
-
-// The Client struct is used to represent a connected client in the chat.
-type Client struct {
-	name string
-	conn net.Conn
-}
-
-var (
-	maximumConnections = 10
-	clientsList        = make([]*Client, 0, maximumConnections)
-	mu                 sync.Mutex // Used to synchronize access to all shared resources in the chat.
-	chatHistory        []string
-	chatHistoryMu      sync.Mutex
 )
 
 const defaultPort = ":8989"
