@@ -63,5 +63,5 @@ func handleNewConnection(conn net.Conn) {
 	// Notify others of the new client.
 	broadcastInformation(fmt.Sprintf("\n%v has joined our chat...", clientName), conn)
 
-	go handleClient()
+	go handleClient(newClient)
 }
