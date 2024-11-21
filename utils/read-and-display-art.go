@@ -26,5 +26,5 @@ func readLogo(name string) (logo string) {
 
 // Uses Write property to display information of the specified file.
 func displayLogo(conn net.Conn) {
-	conn.Write([]byte(readLogo("netcat-logo/netcat-logo.txt")))
+	conn.Write([]byte(readLogo("linux-art/linux-art.txt")))
 }
