@@ -10,6 +10,6 @@ func displayChatHistory(client *Client) {
 		for _, history := range chatHistory {
 			client.conn.Write([]byte(history))
 		}
-		client.conn.Write([]byte("\n --End Of Chat History-- \n"))
+		client.conn.Write([]byte("\n\n --End Of Chat History-- \n\n"))
 	}
 }
