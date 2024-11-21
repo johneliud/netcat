@@ -49,6 +49,6 @@ func StartServer(port string) {
 		}
 		mu.Unlock()
 
-		go handleNewConnection()
+		go handleNewConnection(conn)
 	}
 }
