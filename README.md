@@ -72,3 +72,11 @@ Contributions towards improving the project are welcome. Feel free to create a n
 ## Contact
 
 Incase of further enquiries, do not hesitate to reach [out](johneliud4@gmail.com).
+
+## Credits and Acknowledgements
+
+- [Hillary](https://github.com/HilaryOkello)
+
+- [Joseph](https://github.com/JosephOkumu)
+
+- [Zone01 Kisumu](https://www.zone01kisumu.ke/)
