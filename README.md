@@ -6,7 +6,7 @@ This project consists on recreating the netcat in a server-client architecture t
 
 - [Go](https://go.dev/doc/install) programming language version 1.22 and above.
 
-- Basic understanding of what TCP is and how it works.
+- Basic understanding of [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol).
 
 ## Installation
 
@@ -18,13 +18,10 @@ This project consists on recreating the netcat in a server-client architecture t
 
 ## Usage
 - Run the program from the `root` using either of the below terminal commands.
-
-    1.
     ```bash
     go run .
     ```
 
-    2.
     ```bash
     go run . [SPECIFY-PORT]
     ```
@@ -33,5 +30,43 @@ This project consists on recreating the netcat in a server-client architecture t
 
 - Open a new terminal session and paste the below command to access the program using netcat's server.
 ```bash
-nc localhost [DISPLAYED-PORT]
+nc localhost [SPECIFIED-PORT]
 ```
+
+## Example
+Run the program's server
+![](/readme-img/run-program.png)
+
+
+Switch to new terminal sessions and access the program using netcat's server.
+![](/readme-img/access-netcat-server.png)
+
+## Contributions
+
+Contributions towards improving the project are welcome. Feel free to create a new branch and submit a pull request or create issues on how to improve the project.
+
+### Creating a branch
+
+-
+    ```bash
+    git checkout -b feat-improvement-your_name
+    ```
+
+-
+    ```bash
+    git add modified_file
+    ```
+
+-
+    ```bash
+    git commit -m "description_of_your_changes"
+    ```
+
+-
+    ```bash
+    git push --set-upstream origin feat-improvement-your_name
+    ```
+
+## Contact
+
+Incase of further enquiries, do not hesitate to reach [out](johneliud4@gmail.com).
