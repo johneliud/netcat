@@ -34,11 +34,13 @@ nc localhost [SPECIFIED-PORT]
 ```
 
 ## Example
-Run the program's server
+1. Run the program's server
+
 ![](/readme-img/run-program.png)
 
 
-Switch to new terminal sessions and access the program using netcat's server.
+2. Switch to new terminal sessions and access the program using netcat's server.
+
 ![](/readme-img/access-netcat-server.png)
 
 ## Contributions
